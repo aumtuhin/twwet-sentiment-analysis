@@ -1,3 +1,15 @@
+
+# Import the libraries
+import tweepy
+from textblob import TextBlob
+from wordcloud import WordCloud
+import pandas as pd
+import numpy as np
+import re
+import matplotlib.pyplot as plt
+plt.style.use('fivethirtyeight')
+
+
 # Variables that contains the user credentials to access Twitter API 
 ACCESS_TOKEN = ""
 ACCESS_TOKEN_SECRET = ""
