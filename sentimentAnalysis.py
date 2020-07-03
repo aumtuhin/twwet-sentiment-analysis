@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     api = twitter_client.get_twitter_client_api()
 
-    tweets = api.user_timeline(screen_name="realDonaldTrump", count=20)
+    tweets = api.user_timeline(screen_name="Bilgates", count=20)
 
     #print(dir(tweets[0]))
     #print(tweets[0].retweet_count)
